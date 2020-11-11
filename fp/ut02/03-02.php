@@ -1,3 +1,5 @@
+<!-- Realiza un conversor de pesetas a euros. La cantidad en pesetas que
+ se quiere convertir se deberá introducir por teclado. -->
 <?php
 
     $pesetas = (float)$_POST['pesetas'];
