@@ -1,4 +1,5 @@
 <!-- Escribe un programa que calcule el salario semanal de un trabajador en base a las horas trabajadas. Se pagarán 12 euros por hora. Recogida de datos por teclado mediante formularios -->
+<!-- Escribe un programa que calcule el salario semanal de un trabajador en base a las horas trabajadas. Se pagarán 12 euros por hora. Recogida de datos por teclado mediante formularios -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
