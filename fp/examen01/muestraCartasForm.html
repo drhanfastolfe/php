@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muestra Cartas</title>
+</head>
+<body>
+    <h1>MUESTRA CARTAS (FORMULARIO)</h1>
+    <p>Elija un número de cartas y un palo.</p>
+    <form action="muestraCartasResul.php" method="POST">
+        <label for="n">Número de cartas</label>
+        <input type="number" name="n">
+        <select name="palo">
+            <option value="c" selected>Corazones</option> 
+            <option value="d">Diamantes</option>
+            <option value="p">Picas</option>
+            <option value="t">Trebol</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Contar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
